@@ -1,0 +1,29 @@
+.main{
+  display:grid;
+  grid-template-rows:150px auto;
+}
+.mainMethod{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+}
+.appSection{
+  width:33.33%;
+  background-color:rgb(255, 255, 255);
+  margin:20px;
+
+}
+.task-submit{
+  font-size:16px;
+  font-weight:500;
+  background-color: rgb(136, 95, 233);
+  border-radius:5px;
+  height:40px;
+  padding:3px 13px;
+  margin-left:10px;
+  border:none;
+  cursor:pointer;
+}
+.status{
+  background-color: rgb(136, 95, 233);
+}

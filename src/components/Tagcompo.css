@@ -1,0 +1,11 @@
+.tagsUsed{
+    font-size: 14px;
+    font-weight:500;
+    background: #c297d3;
+    color:rgb(43, 40, 40);
+    border: 1px solid rgb(103, 101, 97);
+    border-radius:5px;
+    padding: 2px 10px;
+    margin-right: 10px;
+    cursor:pointer;
+}
