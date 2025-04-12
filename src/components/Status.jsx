@@ -1,5 +1,5 @@
 import React from 'react'
-import "./status.css"
+import "./Status.css"
 import TaskCard from './TaskCard'
 const Status = ({title,icon,tasks,status,handleDelete}) => {
   return (
