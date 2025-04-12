@@ -4,7 +4,7 @@ import TaskCard from './TaskCard'
 const Status = ({title,icon,tasks,status,handleDelete}) => {
   return (
     <section className='appSection'>
-        <h2 className='status_heading'></h2>
+        <h2 className='status_heading'>{title}</h2>
         {
           tasks.map(
             (task,index)=>

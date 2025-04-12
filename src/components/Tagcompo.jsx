@@ -5,7 +5,7 @@ const Tagcompo = ({tagName,selectTag,selected}) => {
     Peak:{backgroundColor: "rgb(186, 118, 118)"},
     Steady:{backgroundColor: "rgb(232, 245, 161)"},
     Slow:{backgroundColor: "rgb(161, 245, 188)"},
-    default:{backgroundColor: "#c297d3"},
+    default:{backgroundColor: "rgb(138, 160, 231)"},
 
   }
   return (

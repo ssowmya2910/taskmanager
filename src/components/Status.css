@@ -1,4 +1,8 @@
 .status_heading{
-  display: flex;
-  align-items: center;  
+ 
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color:rgb(4, 98, 240);
+ 
 }

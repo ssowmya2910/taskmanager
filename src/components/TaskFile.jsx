@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./TaskFile.css";
 import Tagcompo from './Tagcompo';
-const TaskFile = ({setTasks}) => {
+const TaskFile = ({setTasks,title}) => {
   const [taskData, setTaskData] = useState({
     task:"",
     status:"todo",
@@ -58,6 +58,8 @@ const TaskFile = ({setTasks}) => {
   };*/
  
   return (
+    <section>
+      <h2>{title}</h2>
     <header className='appHeader'>
         <form onSubmit={handleSubmit}>
             <input type="text" 
@@ -85,6 +87,7 @@ const TaskFile = ({setTasks}) => {
             </div></div>
         </form>
     </header>
+    </section>
 
   )
 }
